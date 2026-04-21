@@ -1,1 +1,39 @@
-
+body {
+    background-color: #0f0f0f;
+    color: #00ffcc;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    text-align: center;
+    width: 90%;
+}
+.circle {
+    width: 120px;
+    height: 120px;
+    background: #111;
+    border: 3px solid #00ffcc;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #00ffcc;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.circle:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 40px #00ffcc;
+}
+.chat-box {
+    margin-top: 30px;
+    text-align: left;
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+}
